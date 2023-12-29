@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(145, 248, 35);
+}
+body{
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+}
+.container{
+    height:70vh ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 5px rgb(51, 219, 227),0 0 25px rgb(78, 246, 240);
+    background-color: rgb(252, 104, 222);
+    font-size: 8vmin;
+    color: rgb(12, 1, 18);
+}
+.box:hover{
+    box-shadow: 0 0 5px rgb(151, 248, 34),0 0 25px rgb(86, 246, 42),0 0 50px rgb(107, 246, 38),0 0 100px rgb(86, 246, 46),0 0 200px rgb(139, 246, 18);
+}
+#reset-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b62cf6df;
+    width: 165px;
+    height: 62px;
+    cursor: pointer;
+    color: black;
+    font-size: 4vmin;
+    margin-left: 300px;
+    margin-top: 40px;
+    border-radius: 6rem;
+    box-shadow: 0 0 5px rgb(51, 219, 227),0 0 25px rgb(78, 246, 240);
+
+    
+
+}
+#reset-btn:hover{
+    box-shadow: 0 0 5px rgb(162, 247, 82),0 0 25px rgb(214, 254, 68),0 0 50px rgb(145, 248, 35),0 0 100px rgb(176, 249, 32),0 0 200px rgb(155, 245, 38);
+}
+
+#new-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fb65c9df;
+    width: 165px;
+    height: 62px;
+    cursor: pointer;
+    color: rgb(12, 12, 12);
+    font-size: 4vmin;
+    margin-left: 300px;
+    margin-top: 40px;
+    border-radius: 6rem;
+    box-shadow: 0 0 5px rgb(151, 59, 249),0 0 25px rgb(99, 70, 245);
+}
+#msg{
+    color: rgb(108, 108, 245);
+    font-size:8vmin;
+}
+.msg-container{
+    height: 20vmin;
+    margin-bottom: 10vmin;
+}
+.hide{
+    display: none;
+}
+box.innerText{
+    col
+}
